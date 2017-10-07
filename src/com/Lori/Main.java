@@ -142,7 +142,7 @@ public class Main {
         //example of Consumer
         Consumer<String> c1 = s -> s.toUpperCase();
         Consumer<String> c2 = s -> System.out.println(s);
-        c1.andThen(c2).accept("hello java world");
+        c1.andThen(c2).accept("hello world");
 
 
 
